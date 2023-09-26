@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(to right , rgb(89, 197, 233), black);
+    color: white;
+}
+
+#contenedor{
+    width: 90%;
+    margin: 5px auto;
+    text-align: justify;
+}
+
+#cabecera{
+    padding: 10px 0px;
+    border: 1px silver solid;
+    line-height: auto;
+}
+
+h1,h3{
+    text-align: center;
+}
+
+#navegador{
+    margin-top: 1px;
+    border: 1px silver solid;
+    line-height: auto;
+    padding: 10px 5px;
+}
+
+#navegador li{
+    display: inline-block;
+}
+
+#navegador li a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+#navegador li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+#main{
+    margin-top: 1px;
+}
+
+#izq{
+    width: 25%;
+    border: 1px silver solid;
+    float: left;
+    padding: 5px;
+    height: 400px;
+}
+
+#principal{
+    width: 47%;
+    border: 1px silver solid;
+    float: left;
+    padding: 5px;
+    font-size: 0.8em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 400px;
+}
+
+#der{
+    width: 25%;
+    border: 1px silver solid;
+    float: left;
+    padding: 5px;
+    height: 400px;
+}
+
+#pie{
+    clear: both;
+    margin-top: 1px;
+    border: 1px silver solid;
+    font-size: 0.7em;
+    text-align: right;
+    padding: 10px 10px;
+    color: silver;
+}
+
+.centrar{
+    text-align: center;
+    margin-top: 10px;
+}
+
+img{
+    border-radius: 100px;
+}
+
+
+
+
+
+

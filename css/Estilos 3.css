@@ -1,0 +1,124 @@
+/*Selector Universal */
+
+*{
+    /* propiedad:valor */
+    Margin: 0px;
+    Padding: 0px;
+}
+
+/* selector body */
+Body{
+    /* propiedad: valor */
+    /*background-color: rgb(212, 175, 247);*/
+    Background-image: linear-gradient(rgb(91, 172, 219), rgb(214, 171, 228));
+    Color: rgb(3, 3, 3);
+}
+
+#contenedor{
+    Width: 90%;
+    Margin: 5px auto;
+    Background-image: url();
+    Background-size: 100px 200px;
+    Background-repeat: no-repeat;
+    /*background-position: right bottom;*/
+}
+
+#cabecera{
+    Height: 60px;
+    Border: 1px rgb(205, 241, 73) solid;
+    Background: rgb(109, 233, 226);
+    Width: 90%;
+    Position: fixed;
+}
+
+#logo{
+    Float: left;
+    Width: 20%;
+    Padding: 5px;
+    Line-height: 60px; /* centrar verticalmente el contenido */
+    /*border: 1px rgb(10, 10, 10) solid;*/
+}
+
+#navegador{
+    Padding-top: 15px;
+    Float: right;
+    Font-family: ‘Times New Roman’, Times, serif;
+    Font-size: 1.2em;
+    Width: 75.5%;
+    Text-align: right;
+    /*border: 1px rgb(12, 12, 12) solid;*/
+}
+
+Li{
+    Display: inline-block;
+}
+
+Li a{
+    Text-decoration: none;
+    Margin-right: 10px;
+    Color: white;
+}
+
+A:hover{
+    Text-decoration: underline;
+    Color: aqua;
+    Font-size: 1.1em;
+}
+
+H1,h3{
+    Text-align: center;
+    Font-family: ‘Times New Roman’, Times, serif;
+    Font-size: 1.8em;
+}
+
+#main{
+    Clear: both;
+    Background: url();
+    Background-repeat: no-repeat;
+    Background-size: cover;
+    Margin: 200px 10px;
+    /*border: 1px rgb(235, 195, 245) solid;*/
+}
+
+P{
+    Padding: 10px;
+    Font-family: ‘Times New Roman’, Times, serif;
+    Font-size: 1.2em;
+    Text-align: justify;  /* texto justificado */ 
+    Color: black;
+}
+
+.adicionales{
+    Padding: 50px;
+    Border: 1px rgb(228, 108, 212)solid;
+    Border-radius: 100px 10px;
+    Margin: 50px 10px;
+    /*border-top-right-radius: 100px;*/
+}
+
+.imagenes{
+    Font-size: 0.8em;
+    Font-family: cursive;
+    Text-align: center;
+}
+
+#servicios{
+    Margin-top: 30px;
+}
+
+.avatar{
+    Height: 200px;
+    Width: 200px;
+    Background-repeat: no-repeat;
+    Background-position: left;
+    Border-radius: 50%;
+}
+
+#formulario{
+    Margin-top: 30px;
+    Width: 50%;
+    Margin: 10px auto;
+    Border: 1px rgb(101, 211, 238) inset;
+    Border-radius: 10px;
+}
+
